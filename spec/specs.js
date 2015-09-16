@@ -1,4 +1,19 @@
 describe('decimalToBase', function() {
+  describe('base = 1', function() {
+    var base = 1;
+    var data = [{args: [0, base], expected: '0'},
+               {args: [1, base], expected: '1'},
+               {args: [2, base], expected: '11'},
+               {args: [3, base], expected: '111'},
+               {args: [7, base], expected: '1111111'}];
+
+    data.forEach(function(obj) {
+      it('returns \'' + obj.expected + '\' when the input is ' + obj.args, function(){
+        expect(decimalToBase(obj.args[0], obj.args[1])).to.equal(obj.expected);
+      });
+    });
+  });
+
   describe('base = 2', function() {
     var base = 2;
     var data = [{args: [0, base], expected: '0'},
