@@ -84,7 +84,7 @@ $(function() {
     resetOutput();
     $("#submit-button").html('<i class="fa fa-thumbs-o-up"></i>');
 
-    $("#text-to-convert").focus(function() {
+    $(".focusable").focus(function() {
       $("#submit-button").html('<i class="fa fa-hand-o-right"></i>');
     });
 
@@ -111,7 +111,7 @@ function appendGraphicalRepresentation(element, based) {
   element.html("");
   if (based.base <= Object.keys(bases).length) {
     element.append("<h3>Graphical Representation<br>" +
-                     "<small>represented in transportation icons:</small>" +
+                     "<small>in transportation icons:</small>" +
                    "</h3>");
     based.representation.split("").forEach(function(char) {
       element.append('<i class="fa fa-' + getIcon(char) + '"></i>');

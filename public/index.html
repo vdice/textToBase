@@ -22,11 +22,11 @@
           <form id="text-input-form">
             <div class="form-group">
               <label for="text-to-convert">Text:</label>
-              <input class="form-control" type="text" name="text-to-convert" id="text-to-convert" maxlength="50" required>
+              <input class="form-control focusable" type="text" name="text-to-convert" id="text-to-convert" maxlength="50" required>
             </div>
             <div class="form-group">
               <label for="base">Base:</label>
-              <input class="form-control" type="number" name="base" id="base" min="2" max="16" required value="2">
+              <input class="form-control focusable" type="number" name="base" id="base" min="2" max="16" required value="2">
             </div>
             <button type="submit" class="btn btn-success" id="submit-button"></button>
           </form>
@@ -34,10 +34,8 @@
         <div class="col-xs-6">
           <div id="result">
             <h3><span id="representation-header" class="output"></span> Representation</h3>
-            <div id="converted-text" class="output">
-            </div>
+            <div id="converted-text" class="output"></div>
             <div id="graphical-representation" class="output">
-              <!-- scripts.js appends here as needed -->
             </div>
           </div>
         </div>
