@@ -14,7 +14,7 @@
       <div class="jumbotron">
         <h2>
           Text to Base Representation<br>
-          <small>Supporting bases between 2 and 16</small>
+          <small>Supporting bases between 1 and 16</small>
         </h2>
       </div>
       <div class="row">
@@ -22,11 +22,11 @@
           <form id="text-input-form">
             <div class="form-group">
               <label for="text-to-convert">Text:</label>
-              <input class="form-control focusable" type="text" name="text-to-convert" id="text-to-convert" maxlength="50" required>
+              <input class="form-control focusable" type="text" name="text-to-convert" id="text-to-convert" maxlength="50" required placeholder="(50 character max)">
             </div>
             <div class="form-group">
               <label for="base">Base:</label>
-              <input class="form-control focusable" type="number" name="base" id="base" min="1" max="16" required value="1">
+              <input class="form-control focusable" type="number" name="base" id="base" min="1" max="16" value="1" required>
             </div>
             <button type="submit" class="btn btn-success" id="submit-button"></button>
           </form>
