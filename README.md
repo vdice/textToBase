@@ -6,7 +6,7 @@
 
 _**This app is live!** It has been deployed via Heroku and can be seen  [**here**](https://text-to-base.herokuapp.com)._
 
-_A website for translating text to a base between 1 and 16.  Useful for creating coded messages, art or artfully coded message codes!  Currently transportation icons are being used for the base representation - perhaps later iterations will feature user-supplied icons!_
+_A website for translating text to its base representation, using icons, between 1 and 16.  Useful for creating coded messages, art or artfully-coded message... art!  Currently transportation icons are being used for the base representation - perhaps later iterations will feature user-supplied icons!_
 
 ## Setup
 
