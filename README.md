@@ -1,5 +1,7 @@
 # _Text to Base Translator_
 
+![Preview](/public/images/preview.png?raw=true "Preview")
+
 #### By _**Vaughn Dice**_
 
 ## Description
